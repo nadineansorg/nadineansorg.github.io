@@ -6,3 +6,6 @@
 .real-cover{padding:0;background:#e3e9dd;position:relative;overflow:hidden}.real-cover img{width:100%;height:100%;object-fit:contain;display:block}.real-cover .cover-fallback{display:none}.real-cover.no-image{padding:14px}.real-cover.no-image .cover-fallback{display:block}.pub a,.book-entry a{font:14px Arial,sans-serif;color:#315f40;text-underline-offset:3px}.pub h3{font-size:23px}
 
 .supervision-list{list-style:none;margin:16px 0 0;padding:0}.supervision-list li{padding:15px 0;border-bottom:1px solid var(--line)}.supervision-list strong{display:block;margin-bottom:5px}.supervision-list span{display:block;line-height:1.55}
+
+/* Responsive navigation and readability refinements */
+@media(max-width:580px){header{padding:18px 5%}.brand{font-size:27px}.tag{letter-spacing:1.5px;line-height:1.5;margin-top:5px}nav{gap:10px 16px}nav a{font-size:16px}.hero .copy{padding:35px 5%}.hero .photo{padding:0;min-height:260px}.lead{font-size:20px}.tile{min-height:0;padding:20px}.book-entry{grid-template-columns:minmax(80px,95px) minmax(0,1fr)}.book-entry h3{overflow-wrap:anywhere;font-size:21px}.supervision-list li{overflow-wrap:anywhere}}a:focus-visible{outline:2px solid var(--a);outline-offset:3px}
