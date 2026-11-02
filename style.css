@@ -9,3 +9,6 @@
 
 /* Responsive navigation and readability refinements */
 @media(max-width:580px){header{padding:18px 5%}.brand{font-size:27px}.tag{letter-spacing:1.5px;line-height:1.5;margin-top:5px}nav{gap:10px 16px}nav a{font-size:16px}.hero .copy{padding:35px 5%}.hero .photo{padding:0;min-height:260px}.lead{font-size:20px}.tile{min-height:0;padding:20px}.book-entry{grid-template-columns:minmax(80px,95px) minmax(0,1fr)}.book-entry h3{overflow-wrap:anywhere;font-size:21px}.supervision-list li{overflow-wrap:anywhere}}a:focus-visible{outline:2px solid var(--a);outline-offset:3px}
+
+/* Field photography */
+.field-gallery-intro{margin-bottom:24px}.field-gallery-intro h2{margin:12px 0}.field-gallery-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.field-gallery-grid figure{margin:0;overflow:hidden;background:#e2e7da;height:330px}.field-gallery-grid img{display:block;width:100%;height:100%;object-fit:cover}.field-gallery-grid figure:nth-child(2) img{object-position:center 45%}@media(max-width:650px){.field-gallery-grid{grid-template-columns:1fr}.field-gallery-grid figure{height:260px}}
