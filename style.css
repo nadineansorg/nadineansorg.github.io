@@ -15,3 +15,6 @@
 
 /* Five-photo homepage gallery */
 .field-gallery-grid{grid-template-columns:repeat(6,minmax(0,1fr))}.field-gallery-grid figure{grid-column:span 2}.field-gallery-grid figure:nth-child(1),.field-gallery-grid figure:nth-child(2){grid-column:span 3}.field-gallery-grid figure:nth-child(2) img{object-position:center 45%}@media(max-width:650px){.field-gallery-grid{grid-template-columns:1fr}.field-gallery-grid figure,.field-gallery-grid figure:nth-child(1),.field-gallery-grid figure:nth-child(2){grid-column:auto}}
+
+/* Editorial introduction photography on interior pages */
+.page-intro-with-image{max-width:none;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,0.85fr);gap:clamp(24px,5vw,72px);align-items:center}.page-intro-copy{max-width:800px}.page-intro-photo{height:clamp(280px,32vw,430px);overflow:hidden;background:#e2e7da}.page-intro-photo img{display:block;width:100%;height:100%;object-fit:cover}.page-intro-with-image .lead{max-width:62ch}@media(max-width:800px){.page-intro-with-image{grid-template-columns:1fr}.page-intro-photo{height:300px}}@media(max-width:580px){.page-intro-photo{height:240px}}
